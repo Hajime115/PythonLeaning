@@ -38,5 +38,5 @@ class FileManager:
 
 
 user_info = UserInfo('Taro', 21, '000-0000-0000')
-# user_info.write_str_to_file('Generated/tmp.txt')
-FileManager.write_str_to_file(user_info, "Generated/tmp.txt")
+# user_info.write_str_to_file('solid/Generated/tmp.txt')
+FileManager.write_str_to_file(user_info, "solid/Generated/tmp.txt")
