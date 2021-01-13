@@ -1,0 +1,30 @@
+・クラス名はCapWords方式
+　例: )) UserInfo, BaseExecption, Student 等
+
+・例外クラスの名前はサフィックスにErrorやExceptionを付ける
+
+・関数や変数の名前は小文字のみで単語と単語の間にアンダースコアを挟む
+　例: )) user_info, user_list 等
+
+・定数は全て大文字で単語と単語の間にアンダースコアを挟む
+　例: )) USER_NUMBERS, MAX_USER_ID 等
+
+・プライベートメソッド、プロパティは頭にアンダースコアを２つ付ける
+　例: )) __show_user_list, __insert_data 等
+
+・プロテクテッドメソッド、プロパティは頭にアンダースコアを１つ付ける
+　例: )) _show_user_list, _insert_data 等
+
+・パブリックメソッド、プロパティは頭にアンダースコアを付けない
+　例: )) show_user_list, insert_data 等
+
+・関数、メソッド名は必ず動詞を含める
+　例: )) ×　def file_writing(), def table_reading(), def valid() 等
+       　○  def write_file(), def read_data(), def is_valid() 等
+
+・変数名は名詞 or 名詞 + その説明(形容詞+名詞,過去分詞+名詞,名詞＋過去分詞),is(can)+動詞,has+名詞
+
+・クラス名に略語は使わない
+
+
+
